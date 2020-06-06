@@ -11,11 +11,11 @@ from math import sqrt
 #Game over ending for player 1 and 2
 
 #Game board
-HEIGHT = 500
-WIDTH = 800
+HEIGHT = 700
+WIDTH = 1000
 window = Tk()
-window.title('BUBBLE SHOW DOWN!')
-c = Canvas(window, width=WIDTH, height=HEIGHT,bg='darkblue')
+window.title('ASTEROIDS 2020')
+c = Canvas(window, width=WIDTH, height=HEIGHT,bg='Black')
 c.pack()
 
 #Game player 1
